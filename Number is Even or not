@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+    int num;
+    cout<<"Check Your Number is Even or Not"<<endl;
+    cout<<"Enter your Number :";
+    cin>>num;
+
+    if(num%2==0){
+        cout<<"Your Number is Even!";
+    }
+    else{
+        cout<<"Sorry!Your Number is not Even";
+    }
+    return 0;
+}
